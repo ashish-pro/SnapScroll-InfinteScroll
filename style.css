@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+   
+}
+
+.logo-text{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#spn-txt-2{
+    color: #ff347f;
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    font-weight: 600;
+    
+}
