@@ -51,5 +51,7 @@ body{
 
 .img-xs img{
     width: 100%;
+    height: 95%;
     margin-bottom: 10px;
+
 }
