@@ -7,12 +7,17 @@ html{
 body{
     margin: 0;
     min-height: 100vh;
-   
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
+/* 
+.main-xs{
+   
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+} */
 
 .logo-text{
     font-size: 30px;
-    color: white;
+    color: black;
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -24,4 +29,27 @@ body{
     font-size: 32px;
     font-weight: 600;
     
+}
+
+/* Loader */
+
+.loader-xd{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.loader-xd img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-xs img{
+    width: 100%;
+    margin-bottom: 10px;
 }
